@@ -1,1 +1,56 @@
+font-family: 'Gruppo', sans-serif;
 
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.slide1text {
+    width: 50%;
+    display: ;
+}
+
+slide1img {
+    width: 20%;
+}
+
+.overlaycontainer {
+    position: relative;
+    width: 50%;
+    height: 50vh;
+    overflow: hidden;
+}
+
+.slide1gif {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba (0, 0, 0, 0.5);
+    z-index: 1;
+    padding-top: 85px;
+    padding-left: 230px;
+}
+
+
+.slide2img {
+    width: 20%;
+}
+.slide2text {
+    width: 50%;
+}
+
+
+.slide3img {
+    width: 20%;
+}
+
+.slide3text {
+    width: 50%;
+
+}
