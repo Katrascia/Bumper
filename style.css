@@ -6,51 +6,28 @@ body {
     padding: 0;
 }
 
-.slide1text {
-    width: 50%;
-    display: ;
+.slide {
+    height: 768px;
+    width: auto;
 }
 
-slide1img {
-    width: 20%;
+.textbox {
+    width: 350px;
+    display: inline-block;
 }
 
-.overlaycontainer {
-    position: relative;
-    width: 50%;
-    height: 50vh;
-    overflow: hidden;
+.text {
+    margin: 0px;
+    padding: 0px;
+    display: inline-block;
 }
-
-.slide1gif {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 15%;
-    height: 45%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgba (0, 0, 0, 0.5);
-    z-index: 1;
-    padding-top: 85px;
-    padding-left: 230px;
-}
-
 
 .slide2img {
-    width: 20%;
+    width: 150px;
+    height: 150px;
 }
-.slide2text {
-    width: 50%;
-}
-
 
 .slide3img {
-    width: 20%;
-}
-
-.slide3text {
-    width: 50%;
-
+    width: 150px;
+    height: 150px;
 }
