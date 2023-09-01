@@ -1,7 +1,4 @@
-font-family: 'Gruppo', sans-serif;
-
-
-body {
+.body {
     margin: 0;
     padding: 0;
 }
@@ -20,6 +17,16 @@ body {
     margin: 0px;
     padding: 0px;
     display: inline-block;
+    width: 350px;
+}
+
+.imagebox {
+    display: inline-block;
+}
+
+.slide1img {
+    width: 150px;
+    height: 150px;
 }
 
 .slide2img {
@@ -30,4 +37,40 @@ body {
 .slide3img {
     width: 150px;
     height: 150px;
+}
+
+.logos {
+    width: 100px;
+}
+
+.layeredtext {
+    width: min-content;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.slide5buttons {
+    width: 135px;
+    height: 80px;
+    border-radius: 30px;
+    border: none;
+    vertical-align: text-bottom;
+    font-size: large;
+    background-color: gray;
+    color: greenyellow;
+}
+.flowarrow {
+    font-size:100px;
+}
+
+.thumbsup {
+    vertical-align: super;
+}
+
+.processlist {
+    list-style: none;
+    margin-left: 120px;
+    margin-right: 25px;
+    text-align: center;
+    vertical-align: text-top;
 }
