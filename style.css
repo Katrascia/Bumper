@@ -4,12 +4,19 @@
 }
 
 .slide {
-    height: 768px;
+    height: 700px;
     width: auto;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
+.slide5 {
+    margin: 0px;
+    margin-bottom: 50px;
+}
 .textbox {
-    width: 350px;
+    width: 500px;
     display: inline-block;
 }
 
@@ -17,7 +24,13 @@
     margin: 0px;
     padding: 0px;
     display: inline-block;
-    width: 350px;
+    width: 500px;
+    font-size: x-large;
+    text-align: center;
+    vertical-align: top;
+}
+.descriptiontext {
+    font-size: x-large;
 }
 
 .imagebox {
@@ -25,18 +38,56 @@
 }
 
 .slide1img {
-    width: 150px;
-    height: 150px;
+    width: 800px;
+    height: 550px;
 }
 
 .slide2img {
-    width: 150px;
-    height: 150px;
+    width: 800px;
+    height: 550px;
 }
 
 .slide3img {
-    width: 150px;
-    height: 150px;
+    width: 800px;
+    height: 550px;
+}
+
+.slide4img {
+    width: 800px;
+    height: 550px;
+}
+.slide6img {
+    width: 800px;
+    height: 550px;
+    margin-left: 20px;
+}
+
+.slide7img {
+    width: 600px;
+    height: 600px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.slide9img {
+    width: 650px;
+    height: 400px;
+}
+
+.slide11img {
+    height: 550px;
+    width: 800px;
+}
+
+.slide18img {
+    height: 550px;
+    width: 800px;
+}
+
+.slide19img {
+    height: 550px;
+    width: 650px;
+    margin-right: 50px;
 }
 
 .logos {
@@ -57,7 +108,7 @@
     vertical-align: text-bottom;
     font-size: large;
     background-color: gray;
-    color: greenyellow;
+    color: seashell;
 }
 .flowarrow {
     font-size:100px;
@@ -73,4 +124,25 @@
     margin-right: 25px;
     text-align: center;
     vertical-align: text-top;
+}
+
+.h3 {
+    display: inline-block;
+}
+
+.keyinsightlist {
+    list-style: none;
+    width: 300px;
+}
+
+.headertext {
+    font-size: xx-large;
+    text-align: center;
+}
+
+.slide19list {
+    list-style: lower-alpha;
+    font-size:x-large; 
+    width: fit-content;
+    text-align: left;
 }
