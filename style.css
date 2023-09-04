@@ -102,6 +102,12 @@ html {
     height: auto;
 }
 
+.slide16img {
+    width: 800px;
+    max-width: 100%;
+    height: auto;
+}
+
 .slide18img {
     width: 800px;
     max-width: 100%;
