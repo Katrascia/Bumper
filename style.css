@@ -1,10 +1,14 @@
+html {
+    font-size: 16px;
+}
+
 .body {
     margin: 0;
     padding: 0;
 }
 
 .slide {
-    height: 700px;
+    height: auto;
     width: auto;
     margin-bottom: 50px;
     margin-left: 50px;
@@ -25,12 +29,12 @@
     padding: 0px;
     display: inline-block;
     width: 500px;
-    font-size: x-large;
     text-align: center;
     vertical-align: top;
+    font-size: 1.5em;
 }
 .descriptiontext {
-    font-size: x-large;
+    font-size: ;
 }
 
 .imagebox {
@@ -39,60 +43,76 @@
 
 .slide1img {
     width: 800px;
-    height: 550px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide2img {
     width: 800px;
-    height: 550px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide3img {
     width: 800px;
-    height: 550px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide4img {
     width: 800px;
-    height: 550px;
+    max-width: 100%;
+    height: auto;
 }
 .slide6img {
     width: 800px;
-    height: 550px;
     margin-left: 20px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide7img {
     width: 600px;
-    height: 600px;
     margin-left: 50px;
     margin-right: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide9img {
     width: 650px;
-    height: 400px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide11img {
-    height: 550px;
     width: 800px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide13img {
-    height: 550px;
     width: 800px;
+    max-width: 100%;
+    height: auto;
+}
+.slide15img {
+    width: 800px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide18img {
-    height: 550px;
     width: 800px;
+    max-width: 100%;
+    height: auto;
 }
 
 .slide19img {
-    height: 550px;
     width: 650px;
     margin-right: 50px;
+    max-width: 100%;
+    height: auto;
 }
 
 .logos {
@@ -129,6 +149,7 @@
     margin-right: 25px;
     text-align: center;
     vertical-align: text-top;
+    font-size: 1em;
 }
 
 .h3 {
@@ -141,13 +162,16 @@
 }
 
 .headertext {
-    font-size: xx-large;
+   font-size: 1.5em;
     text-align: center;
 }
 
 .slide19list {
     list-style: lower-alpha;
-    font-size:x-large; 
+    font-size: 1em; 
     width: fit-content;
     text-align: left;
 }
+
+
+
